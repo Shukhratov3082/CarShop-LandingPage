@@ -6,15 +6,22 @@ $Bg-button: #FF0000;
     padding: 0;
     box-sizing: border-box;
 }
-section{
+body{
+    background: black;
+}
+.section1{
     width: 100%;
-    height: 5000px;
+    height: 1031px;
     padding: 0 140px;
     background: #0F0D0E;
+    background-image: url(img/carturadiganjoyi.png);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 120px;
 header{
-    padding: 25px 127px;
+    padding: 25px 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 79px;
     nav{
         display: flex;
@@ -70,6 +77,18 @@ header{
         left: 275px;
   
     }
+    .nmadur{
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        mix-blend-mode: overlay;
+    }
+    .moshina-qora{
+        position: absolute;
+        top: 740px;
+        left: 320px;
+    }
     .car1joyi{
         position: absolute;
         top: 0;
@@ -83,6 +102,8 @@ header{
         line-height: 100px;
     }
     .right-text{
+        position: relative;
+        top: -172px;
         h2:first-child{
             color: white;
 
@@ -95,12 +116,107 @@ header{
            color: #676767;
         }
     }
-    .box1-footer{
+
+}
+}
+.section2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    padding: 0 135px;
+    background: black;
+    .h2but{
+        z-index: 2;
+    }
+    .iz{
+        position: absolute;
+        top: 812px;
+        left: 0;
+        z-index: 0;
+    }
+        h2{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 55px;
+            color: white;
+            margin-bottom: 50px;
+            font-weight: normal;
+        }
+        button{
+            width: 204px;
+            height: 63px;
+            background:$Bg-button;
+            padding: 15px 23px;
+            color: white;
+            border: 0;
+        }
+        .box2-div1{
+            display: flex;
+            gap: 37px;
+               .qizilbox{
+                   width: 274.94px;
+                   height: 267.27px;
+                   padding: 74px 28px;
+                   position: relative;
+                   top: 27px;
+                   background: linear-gradient(135.78deg, #FF4E63 -8.21%, #B90712 114.35%);
+                   text-align: center;
+                   p{
+                       color: white;
+                       margin-top: 30px;
+                   }
+               }
+                 div{
+                     width: 274.94px;
+                     height: 267.27px;
+                     padding: 74px 28px;
+                     border: 1px solid gray;
+                     text-align: center;
+                     p{
+                     
+                         color: white;
+                         margin-top: 30px;
+                     }
+                 }
+         }
+      .box2-div2{
+          display: flex;
+          gap: 37px;
+     
+          div{
+              position: relative;
+              top: 55px;
+              width: 274.94px;
+              height: 267.27px;
+              padding: 74px 28px;
+             border: 1px solid gray;
+             text-align: center;
+              p{      
+                  color: white;
+                  margin-top: 30px;
+              }
+          }
+          div:last-child{
+              position: relative;
+              top: 30px;
+          }
+         }
+      }
+      .box1-footer{
+        width: 100%;
         display: flex;
         justify-content: space-between;
+        position: absolute;
         align-items: baseline;
-        margin-top: 100px;
-        margin-bottom: 111px;
+        padding: 0 140px;
+        background-image: url(img/qorachiziq.svg);
+        background-size: cover;
+        margin-top: -190px;
+        color: white;
+        z-index: 2;
+    
+  
         .boxfotdiv{
             display: flex;
             align-items: center;
@@ -122,83 +238,57 @@ header{
                 border: 1px solid #676767
             }
         }
-        .iz{
-            position: absolute;
-            top: 756px;
-            left: 0;
-            z-index: 0;
-        }
+     
     }
-}
-.box2{
-  position: absolute;
-  display: flex;
-  align-items: center;
-  gap: 35px;
-  z-index: 2;
-      h2{
-          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-          font-size: 55px;
-          color: white;
-          margin-bottom: 50px;
-      }
-      button{
-          width: 204px;
-          height: 63px;
-          background:$Bg-button;
-          padding: 15px 23px;
-          color: white;
-          border: 0;
-      }
-      .box2-div1{
-          display: flex;
-          gap: 37px;
-             .qizilbox{
-                 width: 274.94px;
-                 height: 267.27px;
-                 padding: 74px 28px;
-                 position: relative;
-                 top: 27px;
-                 background: linear-gradient(135.78deg, #FF4E63 -8.21%, #B90712 114.35%);
-                 text-align: center;
-                 p{
-                     color: white;
-                     margin-top: 30px;
-                 }
-             }
-               div{
-                   width: 274.94px;
-                   height: 267.27px;
-                   padding: 74px 28px;
-                   border: 1px solid gray;
-                   text-align: center;
-                   p{
-                   
-                       color: white;
-                       margin-top: 30px;
-                   }
-               }
-       }
-    .box2-div2{
-        display: flex;
-        gap: 37px;
-        div{
-            position: relative;
-            top: 55px;
-            width: 274.94px;
-            height: 267.27px;
-            padding: 74px 28px;
-           border: 1px solid gray;
-           text-align: center;
-            p{      
-                color: white;
-                margin-top: 30px;
+    .section3{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        margin-top: 110px;
+        .sec3box1{
+            width: 100%;
+            padding: 0 135px 0 756px;
+            color: white;
+            .car2{
+                position: absolute;
+                left: 0;
+                top:135px;
+                z-index: 2;
+            }
+            .raduga{
+                position: absolute;
+                left: 0;
+                top: 55px;
+            }
+            h1{
+                font-size: 55px;
+                margin-bottom: 44px;
+            }
+            p{
+                font-size: 20px;
+                margin-bottom: 29px;
+                margin-left: 136px;
+                color: #676767;
+            }
+            h3{
+                margin-bottom: 29px;
+                margin-left: 136px; 
+            }
+            div{
+                position: absolute;
+                right: 171px;
+                padding: 21px 19px;
+                width: 264.24px;
+                height: 167.03px;
+                background: linear-gradient(110.07deg, rgba(255, 255, 255, 0.18) -11.17%, rgba(255, 255, 255, 0) 118.82%, rgba(255, 255, 255, 0.17) 118.82%);
+                p{
+                    text-align: start;
+                    color: white;
+                    font-size: 14px;
+                    margin: 0;
+                    line-height: 30px;
+                    color: #C2C2C2;
+                }
             }
         }
-        div:last-child{
-            position: relative;
-            top: 30px;
-        }
-       }
     }
-}
