@@ -148,7 +148,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 35px;
+  gap: 180px;
   padding: 0 135px;
   background: black;
 }
@@ -173,8 +173,19 @@ body {
 }
 
 .section2 button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 9px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   width: 204px;
   height: 63px;
+  font-size: 19px;
   background: #FF0000;
   padding: 15px 23px;
   color: white;
@@ -193,7 +204,7 @@ body {
   height: 267.27px;
   padding: 74px 28px;
   position: relative;
-  top: 27px;
+  top: 65px;
   background: linear-gradient(135.78deg, #FF4E63 -8.21%, #B90712 114.35%);
   text-align: center;
 }
@@ -206,6 +217,8 @@ body {
 .section2 .box2-div1 div {
   width: 274.94px;
   height: 267.27px;
+  top: 35px;
+  position: relative;
   padding: 74px 28px;
   border: 1px solid gray;
   text-align: center;
@@ -225,7 +238,7 @@ body {
 
 .section2 .box2-div2 div {
   position: relative;
-  top: 55px;
+  top: 95px;
   width: 274.94px;
   height: 267.27px;
   padding: 74px 28px;
@@ -240,7 +253,7 @@ body {
 
 .section2 .box2-div2 div:last-child {
   position: relative;
-  top: 30px;
+  top: 70px;
 }
 
 .box1-footer {
@@ -298,13 +311,15 @@ body {
   width: 100%;
   height: 100%;
   position: relative;
-  margin-top: 110px;
+  margin-top: 180px;
 }
 
 .section3 .sec3box1 {
   width: 100%;
+  height: 695px;
   padding: 0 135px 0 756px;
   color: white;
+  margin-bottom: 72px;
 }
 
 .section3 .sec3box1 .car2 {
@@ -322,36 +337,248 @@ body {
 
 .section3 .sec3box1 h1 {
   font-size: 55px;
-  margin-bottom: 44px;
+  margin-bottom: 80px;
 }
 
 .section3 .sec3box1 p {
   font-size: 20px;
   margin-bottom: 29px;
-  margin-left: 136px;
+  margin-left: 155px;
   color: #676767;
+}
+
+.section3 .sec3box1 .chiziq-qizil {
+  position: absolute;
+  left: 801px;
+  width: 89px;
+  top: 256px;
+  background: #FF0000;
+  border: 1px solid #FF0000;
 }
 
 .section3 .sec3box1 h3 {
   margin-bottom: 29px;
-  margin-left: 136px;
+  margin-left: 155px;
 }
 
-.section3 .sec3box1 div {
+.section3 .sec3box1 .sec3-box {
   position: absolute;
-  right: 171px;
+  right: 256px;
+  top: 316px;
   padding: 21px 19px;
   width: 264.24px;
   height: 167.03px;
   background: linear-gradient(110.07deg, rgba(255, 255, 255, 0.18) -11.17%, rgba(255, 255, 255, 0) 118.82%, rgba(255, 255, 255, 0.17) 118.82%);
 }
 
-.section3 .sec3box1 div p {
+.section3 .sec3box1 .sec3-box p {
   text-align: start;
   color: white;
   font-size: 14px;
   margin: 0;
   line-height: 30px;
   color: #C2C2C2;
+}
+
+.section3 .sec3box1 .sec3-box div {
+  width: 52px;
+  height: 46px;
+  padding: 14px;
+  background: #FF0000;
+  margin-top: 18px;
+}
+
+.section3 .sec3box2 {
+  width: 100%;
+  height: 100%;
+}
+
+.section3 .sec3box2 h1 {
+  text-align: center;
+  font-size: 55px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: normal;
+  color: white;
+  margin-bottom: 60px;
+}
+
+.section3 .sec3box2 .qoshimcha {
+  position: absolute;
+  left: 0;
+  top: 380px;
+}
+
+.section3 .sec3box2 .dumaloq {
+  position: absolute;
+  right: 361px;
+  top: 110px;
+}
+
+.section3 .sec3box2 .car3 {
+  position: absolute;
+  right: 438px;
+  z-index: 2;
+}
+
+.section3 .sec3box2 .sec3boxobshiy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 915px;
+  position: relative;
+}
+
+.section3 .sec3box2 .sec3boxobshiy div {
+  padding: 0 140px;
+}
+
+.section3 .sec3box2 .sec3boxobshiy .odam {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(42%, black), color-stop(36%, #a394fe));
+  background: linear-gradient(180deg, black 42%, #a394fe 36%);
+}
+
+.section3 .sec3box2 .sec3boxobshiy p {
+  color: white;
+  line-height: 28px;
+  margin-top: 36px;
+  margin-bottom: 36px;
+  line-height: 28px;
+}
+
+.section3 .sec3box2 .sec3boxobshiy button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 9px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 187px;
+  height: 63px;
+  font-size: 19px;
+  background: #FF0000;
+  padding: 15px 23px;
+  color: white;
+  border: 0;
+}
+
+.section3 .sec3box2 .sec3boxobshiy .moshinanioldidi {
+  width: 400px;
+  position: absolute;
+  left: 1150px;
+  top: 227px;
+  line-height: 65px;
+}
+
+.section3 .sec3box2 .sec3boxobshiy .moshinanioldidi .span1, .section3 .sec3box2 .sec3boxobshiy .moshinanioldidi .span2, .section3 .sec3box2 .sec3boxobshiy .moshinanioldidi .span3 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #FFC700;
+  font-size: 50px;
+}
+
+.section3 .sec3box2 .sec3boxobshiy .moshinanioldidi .span2 {
+  color: #00FFD1;
+  font-size: 50px;
+}
+
+.section3 .sec3box2 .sec3boxobshiy .moshinanioldidi .span3 {
+  color: #FF00E5;
+  font-size: 50px;
+}
+
+.section3 .sec3box2 .sec3boxobshiy .moshinanioldidi p {
+  margin: 0;
+}
+
+.section3 .oxirgi-box {
+  width: 100%;
+  padding: 0 175px;
+}
+
+.section3 .oxirgi-box div {
+  width: 1170px;
+  height: 487.95px;
+  border: 1px solid;
+  padding: 80px 75px;
+  border: 1px solid gray;
+  color: white;
+  position: relative;
+  background: linear-gradient(101.11deg, rgba(255, 255, 255, 0.07) -11.78%, rgba(255, 255, 255, 0) 95.66%);
+}
+
+.section3 .oxirgi-box div h1 {
+  font-size: 55px;
+  line-height: 70px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: normal;
+  margin-bottom: 33px;
+}
+
+.section3 .oxirgi-box div .car4 {
+  position: absolute;
+  top: 0;
+  right: -130px;
+  z-index: -1;
+}
+
+.section3 .oxirgi-box div button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 9px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 226px;
+  height: 63px;
+  font-size: 19px;
+  background: #FF0000;
+  padding: 15px 23px;
+  color: white;
+  border: 0;
+  margin-top: 33px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 90px;
+  padding: 109px 140px 10px;
+  color: white;
+  margin-top: 70px;
+  position: relative;
+}
+
+footer .fotdiv1 {
+  margin-right: 180px;
+  line-height: 23px;
+  font-size: 13px;
+}
+
+footer h3 {
+  margin-bottom: 35px;
+}
+
+footer p {
+  margin-bottom: 13px;
+}
+
+footer .fot-divoxiri div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .qoshimcha2 {
+  position: absolute;
+  right: 10px;
+  top: -435px;
 }
 /*# sourceMappingURL=Style.css.map */
