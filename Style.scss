@@ -63,6 +63,13 @@ header{
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         font-weight: normal;
         margin-bottom: 28px;
+        span{
+            width: 436.81px;
+            height: 128.86px;
+            padding: 4px 54px;
+            clip-path: polygon(3% 0, 100% 0%, 97% 99%, 0 100%);
+            background-color: $Bg-button;
+        }
     }
     p{
         font-size: 16px;
@@ -77,6 +84,7 @@ header{
         left: 275px;
   
     }
+
     .nmadur{
         position: absolute;
         width: 100%;
@@ -377,7 +385,7 @@ header{
             .moshinanioldidi{
                 width: 400px;
                 position: absolute;
-                left: 1150px;
+                left: 1119px;
                 top: 227px;
                 line-height: 65px;
                 .span1,.span2,.span3{
